@@ -1,0 +1,3 @@
+*{font-family:"微软雅黑","宋体",Arial,sans-serif !important;}
+body{background-color:#f2eada;padding-top:60px;}
+.form-control[readonly]{cursor:text !important;}

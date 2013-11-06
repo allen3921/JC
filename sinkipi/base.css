@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+html, body {
+	margin:0;
+	padding:0
+}
+body {
+	font-family: 微软雅黑;
+}
+
+ul{
+	list-style-type:none;
+	list-style-image:none;
+}
+
+
+.header{
+	background-color:#000000;
+	height:30px;
+	min-width:980px;
+	border:solid
+}
+
+.header_menu{
+	line-height:30px;
+	margin:0px auto;
+	width:980px;
+	height:30px;
+	color:#b5b5b5;
+}
+
+.header_menu .login {
+	float:right;
+}
+
+.header_menu .login .bt{
+	padding-bottom:0px;
+	background-color:#0066CC;
+	padding-left:12px;
+	padding-right:12px;
+	display:inline-block;
+	color:#fff;
+	margin-left:2px;
+	padding-top:0px;
+	text-decoration:none;
+}
+.header_menu .login .btsuccess{
+	padding-bottom:0px;
+	padding-left:12px;
+	padding-right:12px;
+	display:inline-block;
+	color:#fff;
+	margin-left:2px;
+	padding-top:0px;
+	text-decoration:none;
+}
+
+.header_menu .login .bt :hover {
+	opacity:0.8;
+}
+
+.menu{
+	padding-bottom:20px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:20px;
+	margin:auto;
+	width:980px;
+	height:32px;
+}
+
+.menu .logo{
+	float:left;
+}
+
+.menu .logo A{
+	text-indent:999em;
+	width:980px;
+	height:80px;
+	display:block;
+	background:url(../img/logo2.jpg) no-repeat center
+}
+
+.menu .nav{
+	float:right;
+	padding-top:15px;
+}
+
+.menu .nav li{
+	z-index:9;
+	position:relative;
+	line-height:32px;
+	display:inline;
+	float:left;
+	height:32px;
+	margin-left:18px;
+}
+
+.menu .nav li.line{
+	border-left:#d5d5d5 1px solid;
+}
+
+.menu .nav li a{
+	color:#333;
+	font-size:16px;
+	text-decoration:none;
+}
+.image{
+	height:365px;
+	margin-top:10px;
+	overflow:hidden;
+	min-width:980px;
+}
+
+.shouye{
+	background-image:url(../img/title.png);
+}
+.jiagu{
+	background-image:url(../img/jiagu.png);
+}
+.jiance{
+	background-image:url(../img/channel.jpg)
+}
+.autotest{
+	background-image:url(../img/autotest.jpg)
+}
+
+.image a.buttonjiagu{
+	float:right;
+	margin-right:560px;
+	margin-top:280px;
+	text-decoration:none
+}
+
+.image a.buttonjiance{
+	float:right;
+	margin-right:600px;
+	margin-top:280px;
+	text-decoration:none;
+}
+.image a.buttontest{
+	float:right;
+	margin-right:250px;
+	margin-top:280px;
+	text-decoration:none
+	
+}
+.maincontent{
+	margin:auto;
+	width:980px;
+	height:950px;	
+}
+
+.clearfix{
+	zoom:1;
+}
+.wrapper{
+	border:#d5d5d5 1px solid;
+	float:left;
+	min-width:980px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.content{
+	padding:10px;
+	float:left;
+	width:306px;
+	height:160px;
+	overflow:hidden;
+}
+.wrapper .content A{
+	text-decoration:none
+}
+
+.wrapper .content STRONG{
+	line-height:50px;
+	padding-left:58px;
+	padding-top:7px;
+	display:block;
+	margin-bottom:10px;
+	height:50px;
+	color:#1d8bd8;
+	font-size:28px;
+}
+
+.wrapper .content img{
+	margin-top:5px; 
+	margin-left:10px;
+	 margin-right:15px; 
+	 float: left;
+}
+.leftline{
+	border-right:#d5d5d5 1px dashed;
+}
+
+.upline{
+	border-top:#d5d5d5 1px dashed
+}
+
+
+.noline{
+}
+
+.bigcontent{
+	border: #d5d5d5 1px solid;
+	float:left;
+	margin-bottom:10px;
+	min-width:980px;
+	height:auto;
+}
+
+.help{
+	float:right;
+	height:530px;
+	width:284px;
+	border-left:#d5d5d5 1px solid;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+
+}
+.help img{
+ text-align:center;
+}
+.help a.h3_title{
+	line-height:50px;
+	padding-left:5px;
+	padding-top:0px;
+	display:block;
+	height:50px;
+	color:#1d8bd8;
+	font-size:28px;
+	text-decoration:none
+}
+.testapp{
+	height:120px;
+	border:#d5d5d5 1px solid;
+	margin-bottom:10px;
+}
+.flowchart{
+	height:250px;
+	border:#d5d5d5 1px solid;
+
+}
+.flowchart .show{
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:7px;
+}
+.contact{
+	height:130px;
+	margin-top:10px;
+	border:#d5d5d5 1px solid;
+}
+
+.sec_state{
+	width:650px;
+	float:left;
+	height:320px;
+}
+
+.sec_state a.h3_title{
+	line-height:35px;
+	margin:13px;
+	height:auto;
+	color:#1d8bd8;
+	font-size:17px;
+	text-decoration:none
+}
+
+.sec_state h4{
+	line-height:35px;
+}
+.sec_state img{
+	
+}
+.footer{
+	margin:auto;
+	background:#e1e1e1;
+	color:#414141;
+	border-top:#d5d5d5 1x solid；
+	min-width:990px;
+	padding-bottom:20px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:20px;
+	text-align:center;
+}
+
+.taskPanel{overflow:hidden;border-radius:10px;background-color:#fff;border:1px solid #fff !important;padding:20px 0;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.35) !important;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.35) !important;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.35) !important;
+}
+

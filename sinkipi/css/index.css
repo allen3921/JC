@@ -1,0 +1,12 @@
+body{background-image:url("../img/bg.jpg");background-color: transparent !important;padding-top:10px !important;}
+a:hover{text-decoration:none !important;}
+.logo{text-align:center;color:#fff;font-weight:bold;margin:10px 0;}
+.ziliao{padding-left:50px;}
+.aboutUs{color:#fff;}
+.aboutUs:hover{color:#ddd;}
+.help-block{color:#fff !important;}
+input{background-color:#333 !important;border-color:#666 !important;}
+input:focus{background-color:#fff !important;}
+.text-warning:hover{color:#71BDFF !important;}
+.us{margin-left:10px;color:#B0E7F8;font-weight:bold;}
+.carousel{width:800px;margin:0 auto;}

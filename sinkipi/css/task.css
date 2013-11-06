@@ -1,0 +1,21 @@
+.taskPanel{overflow:hidden;
+border-radius:10px;
+background-color:#fff;
+border:1px solid #fff !important;
+padding:20px 20px;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.35) !important;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.35) !important;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.35) !important;
+}
+.taskItem{background-color:#afdfe4;margin:20px auto;border-radius:10px;height:150px;border:2px dashed #FFF;}
+.taskItem .content{font-size:30px;padding:25px 30px;border:dashed #FFF;border-width:0 2px 0 0;}
+.taskItem .content p{margin:1em auto;color:#444;}
+
+.getTask{padding-left:3em !important;}
+.getTask h3{margin:10px 0;color:#F88C16;}
+.getTask .remaining{font-size:30px;color:#F44;font-weight:bold;}
+.getTask .countdown{}
+
+#todoTask .getTask{padding-top:20px;}
+#todoTask .getTask h3{margin:5px 0;color:#fff;font-size:18px;}
+#doneTask .getTask{margin:50px auto;}
